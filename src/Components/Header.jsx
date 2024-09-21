@@ -37,7 +37,7 @@ export default function Header() {
             </li>
         </ul>
         {/* responsive menu */}
-        <ul className={`duration-300 md:hidden w-full h-screen text-white fixed bg-black top-[84px] ${toggle ? 'left-0' : 'left-[-100%]'}`}>
+        <ul className={`duration-300 md:hidden w-full h-screen z-10 text-white fixed bg-black top-[84px] ${toggle ? 'left-0' : 'left-[-100%]'}`}>
 
             <li className='p-5'>
                 Home

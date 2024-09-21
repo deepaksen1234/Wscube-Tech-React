@@ -7,7 +7,7 @@ export default function Banner() {
         <div className='max-w-[1200px] mx-auto text-center'>
             <div className='text-2xl md:text-4xl font-bold md:mt-8'>Learn with us</div>
             <h2 className='text-white font-bold md:mt-8 text-4xl md:text-[60px]'>Grow With Us</h2>
-            <div className='font-bold text-2xl md:text-[40px] text-white md:mt-8'>Learn
+            <div className='font-bold z-0 text-2xl md:text-[40px] text-white md:mt-8'>Learn
             <ReactTyped className='ps-3' strings={[ "Web development","Digital Marketing","Ethical Hacking"]} typeSpeed={100}
             loop={true} backSpeed={50}/>
             </div>
